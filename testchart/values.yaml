@@ -8,7 +8,7 @@ label:
 container:
   name: dotnetapi1
   pullPolicy: IfNotPresent
-  image: configsamp
+  image: mycontainerregistryn.azurecr.io/#{Build.Repository.Name}#:#{Build.BuildId}#
   tag: latest
   port: 80
   env: Production  
