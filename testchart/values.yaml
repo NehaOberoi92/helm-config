@@ -1,0 +1,23 @@
+environment: development
+
+apphost: k8s
+
+label:
+  name: dotnetapi1
+
+container:
+  name: dotnetapi1
+  pullPolicy: IfNotPresent
+  image: configsamp
+  tag: latest
+  port: 80
+  env: Production  
+
+replicas: 1
+service:
+  type: NodePort
+  port: 8888
+
+
+
+
