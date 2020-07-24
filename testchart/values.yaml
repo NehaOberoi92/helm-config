@@ -15,8 +15,8 @@ container:
 
 replicas: 1
 service:
-  type: NodePort
-  port: 8888
+  type: LoadBalancer
+  port: 80
 
 
 
