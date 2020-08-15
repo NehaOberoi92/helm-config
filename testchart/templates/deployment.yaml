@@ -33,7 +33,7 @@ spec:
             - name: MyKey
               value: {{.Values.properties.mykey | quote }}    
       imagePullSecrets:
-      - name: acrsecret
+      - name: acrsecrett
 
 
           
