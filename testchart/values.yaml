@@ -13,6 +13,12 @@ container:
   port: 80
   env: Production  
 
+properties:
+  Name : "Neha Oberoi"
+  Title : "Himanshu Khanna DevOps"
+  MyKey : "appsettings.Dev"
+
+
 replicas: 1
 service:
   type: LoadBalancer
